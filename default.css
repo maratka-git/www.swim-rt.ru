@@ -1,0 +1,321 @@
+
+body,td,th,input,select,textarea,input {font-family: sans-serif; font-size:17px;line-height:1.5;font-weight:400;}
+
+
+p{margin:0 0 1.5em 0;}
+form{padding:0;margin:0}
+a{
+	color:#009aF0;
+	text-decoration: none;
+	font-size:17px;
+}
+a:hover{
+	color:#101035;
+	text-decoration: none;
+}
+a img{border:none;}
+a:focus{outline: none;}
+
+likea{
+	color:#009aF0;
+	text-decoration: none;
+	font-size:17px;
+}
+
+h1{font-size:32px;line-height:1.2;color:#000;margin:0px 0 20px 0;font-family: 'Raleway', sans-serif;font-weight:200;}
+h2{font-size:27px;line-height:1.2;color:#004fa3;margin:20px 0 10px 0;font-family: 'Raleway', sans-serif;font-weight:400;}
+h3{font-size:23px;line-height:1.2;color:#ed3e33;margin:20px 0 10px 0;font-family: 'Raleway', sans-serif;font-weight:400;}
+h4{font-size:20px;line-height:1.2;color:#525252;margin:20px 0 10px 0;font-family: 'Raleway', sans-serif;font-weight:400;}
+
+.floatright{float:right;margin:0 0 10px 15px;}
+.floatleft{float:left;margin:0 15px 10px 0;}
+
+td div { 
+ 	display:inline;
+	}
+
+td div.meblink { 
+ 	display:inline;
+	animation: blink 2s linear infinite;
+	-webkit-animation: blink linear 2s infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+} 
+
+ul {
+	margin:0 0 .5em 0;
+	padding:0;
+	list-style:none;
+}
+ul li {padding: 0px; }  /* MK сделал отступ 0 из-за плавания breakingNews - рекорды */
+
+#tblACMAdminToolbar { z-index:9999;}
+#tblACMAdminToolbar ul li{background-image:none;}
+
+.clear:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;} * html .clear {zoom:1;} *:first-child+html .clear{zoom:1;}
+
+.wrapper{
+/*	width:960px;	MK 2016.12.10 */
+	margin:0 auto
+}
+#wrapper{}
+
+.fiored {
+	font-family: Arial; 
+	font-size: 18px; 
+	font-weight: 600;
+	color: red; 
+}
+.fiobk {
+	font-family: Arial; 
+	font-size: 18px; 
+	font-weight: 600;
+	color: black; 
+}
+
+/*******************************************************/
+/* Header
+/*******************************************************/
+
+#header-wrapper{background:#fff;
+height:52px;	/* MK - height of top banner table: fprt kazan fpr wada etc. */
+}
+header{position:relative;}
+header a{text-decoration:none;}
+
+#logo{font-size:0}
+
+#toolbar{font-size:12px;position:absolute;top:33px;right:340px}
+#toolbar ul{margin:0;padding:0;list-style:none;}
+#toolbar ul li{border-right:1px solid #fff;margin:0 10px 0 0;padding:0 10px 0 0;list-style:none;display:-moz-inline-box;display:inline-block;*display:inline;*zoom:1;background:none}
+#toolbar ul li:last-child{margin:0;padding:0;border:none}
+#toolbar ul li a{}
+
+#search{width:320px;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;background:#fff;position:absolute;top:20px;right:0}
+#search .ipf-PageSearch-TextField{width:260px;height:29px;padding:5px 45px 5px 10px;background:none;border:1px solid #004CA0;margin:0;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;color:#000}
+#search .ipf-PageSearch-Button{width:27px;height:27px;border:none;margin:0;padding:0;text-indent:-9999px;background: url(../images/template/button-search.png) 0 0 no-repeat;position:absolute;top:7px;right:10px}
+
+/*******************************************************/
+/* Nav
+/*******************************************************/
+
+#nav-wrapper{background:#003776;position:relative;z-index:200}
+nav{display:table;width:100%;}
+nav ul{display:table-row;margin:0;padding:0;list-style:none;}
+nav ul li{display:table-cell;margin:0;padding:0;list-style:none;text-align:center;vertical-align:middle;background:none}
+nav ul li a{color:#fff;text-decoration:none;display:block;padding:13px 0}
+/* Level 2 */
+nav ul li ul {
+	display:block;margin:0;position: absolute;background: #fff;
+	width: 230px;
+	left: -999em;-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.50);-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.50);box-shadow:0px 0px 10px rgba(0,0,0,0.50);
+}
+nav ul li ul li{color:#000;display:block;background:none;margin:0;border-bottom:1px solid #efefef;padding:0;text-indent:0;text-align:left;text-shadow:none;}
+nav ul li#pageid16305{display:none;}
+nav ul li ul li:hover{background:#efefef}
+nav ul li ul li a{color:#000;padding:6px 10px}
+/* Level 3 */
+nav li:hover ul ul, nav li:hover ul ul ul {left: -999em;}
+nav li:hover ul, nav li li:hover ul, nav li li li:hover ul{left: auto;}
+nav li:hover {position: static;}
+
+/*******************************************************/
+/* Hero
+/*******************************************************/
+
+
+#hero{ width:960px; height:492px;}
+
+#hero .ipb-epg-information {background:#EE3D33; opacity:0.9; filter:alpha(opacity=90)}
+
+#hero span, #hero h3{
+	font-size:35px !important;
+	font-weight:400 !important;
+	color:#fff !important;
+	font-family:'Raleway',sans-serif !important;
+	padding-top:10px !important;
+	padding-left:20px !important;
+	padding-bottom:0px !important;
+	display:block;
+
+	
+}
+
+#hero p{
+	font-size:14px !important;
+	color:#fff !important;
+	padding-left:20px !important;
+        padding-bottom:12px !important;
+
+}
+
+
+/*******************************************************/
+/* Content Area
+/*******************************************************/
+
+#contentarea-wrapper{background:#fff;}
+.level2 #contentarea{background: url(../images/template/contentarea-level2-bg.gif) top left repeat-y}
+#contentarea{
+/* MK 20171121 added */
+	position: relative;
+	width: 100%;
+}
+
+#column-buttons{margin:0 0 20px 0}
+#column-buttons img{width:100%;height:auto}
+
+#newsletter{margin:0 4px 20px 4px}
+#newsletter h3{color:#000;margin:0}
+.level2 #newsletter h3{font-size:16px;margin:0}
+#newsletter-form{position:relative;margin:0;height:39px;border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;-webkit-border-radius:5px 5px 5px 5px;background:#fff;-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.50);-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.50);box-shadow:0px 0px 10px rgba(0,0,0,0.50);}
+#newsletter-textfield{position:absolute;top:7px;left:10px;border:none;margin:0;padding:0;background:none;width:260px;}
+.level2 #newsletter-textfield{width:190px;}
+#newsletter-button{position:absolute;top:1px;right:1px;}
+
+/*******************************************************/
+/* Left Column
+/*******************************************************/
+
+#column-left{float:left;width:240px;padding:20px 10px;}
+#column-left2 {
+	float:left;
+	width:240px;
+	padding:0px 10px;
+}
+
+#subnav{margin:0 -10px 20px -10px}
+#subnav h3{border-bottom:1px dotted #000;margin:0;color:#003776;font-size:20px;padding:0 0 7px 20px}
+#subnav ul{margin:0;padding:0;list-style:none}
+#subnav ul li{margin:0;padding:0;list-style:none;border-bottom:1px dotted #000;background:none}
+#subnav ul li a{display:block;padding:3px 20px 3px 25px;text-decoration:none; }
+#subnav ul li ul{}
+#subnav ul li ul li{border:none}
+#subnav ul li ul li a{padding-left:45px; }
+
+/*******************************************************/
+/* Content
+/*******************************************************/
+
+#rtrecords {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 115%;
+    border-collapse: collapse;
+}
+
+#rtrecords td, #rtrecords th {
+    font-size: 0.9em;
+    border: 1px solid #AAAAAA;
+}
+#content-fed { float:left; padding:10px 0 }
+.level1 #content{padding: 0px; }
+.level1 #content-fed { 
+	width: 700px;
+	padding: 10px 0 0 20px;
+}
+.level1 #content-fed1 { 
+	width: 700px;
+	padding: 10px 0 0 20px;
+}
+
+#content-fed-two { 
+	float:left; 
+	position: relative;
+display: inline;
+}
+.level1 #content-fed-two { 
+	width: 900px;
+	padding: 10px 0 0 20px;
+}
+#column-left-two {
+	float:left;
+	width: 240px;
+	padding:20px 10px;
+display: inline;
+}
+
+#path{border-bottom:1px dotted #000;color:#003a78;padding:0 0 5px 0;margin:0 0 15px 0}
+
+#newsgrid{}
+#newsgrid h2{margin:0;border-bottom:1px solid #004CA0;padding:0 0 3px 0;font-size:23px}
+
+#newsgrid-column1{float:left;width:33%;margin:0 10px 20px 0;}
+#newsgrid-column2{float:left;width:32%;margin:0 0px 40px 64px }
+#newsgrid-column3{float:right;width:32%;margin:0 0 20px 0}
+#newsgrid-column4{float:left;width:290px;margin:0 10px 20px 0}
+
+
+/*******************************************************/
+/* Right Column
+/*******************************************************/
+
+#column-right{float:left;width:347px;padding:50px 0;}
+
+.main-menu-point {
+	margin: 0;
+	padding: 13px 0;
+	color: #fff;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+/*******************************************************/
+/* Footer
+/*******************************************************/
+
+#footer-wrapper{background:#004CA0}
+footer{color:#fff;padding:30px 0;font-size:16px;}
+footer a{color:#fff;text-decoration:none}
+
+footer ul{margin:0 0 35px 0;padding:0;list-style:none;text-align:center}
+footer ul li{border-right:1px solid #fff;margin:0 10px 0 0;padding:0 10px 0 0;list-style:none;display:-moz-inline-box;display:inline-block;*display:inline;*zoom:1;background:none}
+footer ul li:last-child{margin:0;padding:0;border:none}
+footer ul li a{}
+footer img{vertical-align:middle;}
+
+#footer-active{font-size:14px}
+#footer-active-left{width:10%;float:left;text-align:left;}
+#footer-active-lmid{width:45%;float:left;text-align:center;}
+#footer-active-rmid{width:30%;float:left;text-align:center;}
+#footer-active-right {
+	width:15%;
+	float:left;
+}
+
+/*******************************************************/
+/* Blank Template
+/*******************************************************/
+
+body.template-blank{background:#fff;background-image:none;padding:15px;}
+
+/*******************************************************/
+/* Legacy Content
+/*******************************************************/
+
+.Subhead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #6666CC; }
+.bodytext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; line-height: normal; }
+.A-links { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #003366; }
+.bodytextBOLD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #333333; }
+.bodytext-big { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; }
+.Links-subhead { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000066; }
+.Links-text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000066; }
+.smlprint { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: italic; }
+.smllinks-text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000066; }
+.subhead-white { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; }
+.fineprint { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #999999; }
+.affiliates-list { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; line-height: 16px; }
+.links-subhead-white { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: normal; color: #FFFFFF; }
+.subhead-green { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #0099CC; font-weight: bold; }
+
+.ladybug {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/swimcenter_logo.png');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+
+
