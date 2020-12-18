@@ -1,0 +1,250 @@
+#page
+{
+	z-index: 1;
+	width: 600px;
+	background-image: none;
+	border-style: none;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-bottom: -105px;
+}
+
+.Header
+{
+	border-style: solid;
+	border-color: #B3B3B3;
+	background-color: #F7F7F7;
+	border-width: 0px 0px 1px;
+}
+
+#slideshowu1828
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 250px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: relative;
+}
+
+#u1838
+{
+	position: absolute;
+	width: 600px;
+	height: 492px;
+	background-color: transparent;
+}
+
+#u1838popup
+{
+	z-index: 7;
+}
+
+#u1975
+{
+	z-index: 8;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1939
+{
+	z-index: 9;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1940
+{
+	z-index: 10;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1941
+{
+	z-index: 11;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1942
+{
+	z-index: 12;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1943
+{
+	z-index: 13;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1944
+{
+	z-index: 14;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1945
+{
+	z-index: 15;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1946
+{
+	z-index: 16;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1947
+{
+	z-index: 17;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1948
+{
+	z-index: 18;
+	width: 600px;
+	height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1975_clip,#u1939_clip,#u1948_clip
+{
+	overflow: hidden;
+	width: 600px;
+	height: 492px;
+}
+
+
+#u1847,#u1849
+{
+	color: #999999;
+}
+
+
+.MenuItem,.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading
+{
+	background: url("img/loading.gif") no-repeat center center;
+}
+
+.widget_invisible,.js .invi,.js .se_invi /* used to hide the widget before loaded */
+{
+	visibility: hidden;
+}
+
+*:first-child+html .clearfix /* IE7 */
+{
+	zoom: 1;
+}
+
+.position_content,.excludeFromNormalFlow /* used when child content is larger than parent */
+{
+	float: left;
+}
+
+.popup_element { z-index: 100000; }
+
+.popup_anchor /* anchors an abspos popup */
+{
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
+
+.colelem /* a child element of a column MK: dont need*/
+{
+	display: inline;
+	float: left;
+	clear: both;
+}
+
+.grpelem /* a child element of a group MK: really need*/
+{
+	display: inline;
+	float: left;
+	cursor: pointer;
+}
+
+
+
+

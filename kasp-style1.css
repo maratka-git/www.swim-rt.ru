@@ -1,0 +1,52 @@
+
+.shell { width: 1260px; max-width: 1260px; margin: 0 auto; } 
+
+.wrapper-kasp { position: relative; overflow: hidden; width: 100%; padding: 20px 0; }
+
+.header { width: 100%; padding: 0 0 1px; background: #231f20; }
+
+.top-slider { 
+	position: relative; 
+	height: 300px; 
+	overflow: hidden; 
+}
+
+.top-slider .bx-controls { position: absolute; bottom: 15px; width: 850px; text-align: left; padding-left: 10px; }
+
+
+
+.container { position: relative; overflow: hidden; width: 100%; margin-bottom: 30px; }
+.container .text { float: left; font-size: 19px; line-height: 1.32; padding: 0px; }
+.container .text .button { position: relative; display: block; padding: 9px 18px 13px 60px; border: 1px solid #eacece; font-size: 12px; line-height: 18px; background: #f2ede3; border-radius: 4px; margin-bottom: 30px; max-width: 314px; } 
+.container .text .button span { display: block; font-size: 16px; } 
+.container .text .button:hover { background: #e1ddd6; } 
+.container .text .button .icon { position: absolute; top: 17px; left: 19px; font-size: 27px; } 
+.container .text .button:hover { text-decoration: none; } 
+.container .text .entry { min-height: 190px; }
+.container .text p { padding-bottom: 18px; }
+.container h2 { padding-bottom: 23px; font-size: 44px; line-height: 1.1; font-weight: normal; color: #662f1c; }
+.container.no-thumb .text { width: auto; }
+.container.no-thumb .entry { min-height: 0; }
+
+
+.featured-image { 
+	float: left; 
+	width: 730px; 
+	margin-left: 40px; 
+}
+.featured-image img { float: left; display: block; }
+
+.featured-image .quote-left {
+	float: left; 
+	display: block; 
+	padding: 0px; 
+}
+.featured-image .quote { 
+	position: absolute; 
+	top: 0; bottom: 0; right: 0; 
+	width: 500px; 
+	padding: 0px; 
+}
+.featured-image .quote p { position: relative; overflow: hidden; display: table-cell; padding: 0; width: 340px; height: 155px; vertical-align: middle; }
+.featured-image .quote .icon { padding: 15px 0 6px; display: block; font-size: 33px; line-height: 1; color: #b6554a; }
+

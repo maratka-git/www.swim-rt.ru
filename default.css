@@ -318,4 +318,10 @@ body.template-blank{background:#fff;background-image:none;padding:15px;}
     background-repeat: no-repeat;
 }
 
-
+.medal {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/medal_04.png');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
