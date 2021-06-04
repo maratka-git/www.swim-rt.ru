@@ -317,7 +317,13 @@ body.template-blank{background:#fff;background-image:none;padding:15px;}
     background-size: 1em;
     background-repeat: no-repeat;
 }
-
+.lb-blue {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/ladybug.png');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
 .medal {
     list-style-type: none;
     padding-left: 2em;
