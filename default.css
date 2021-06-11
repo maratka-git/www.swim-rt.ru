@@ -324,10 +324,24 @@ body.template-blank{background:#fff;background-image:none;padding:15px;}
     background-size: 1em;
     background-repeat: no-repeat;
 }
-.medal {
+.gold-medal {
     list-style-type: none;
     padding-left: 2em;
-    background-image: url('img/medal_04.png');
+    background-image: url('img/medal_gold.jpg');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+.silver-medal {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/medal_silver.jpg');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+.bronze-medal {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/medal_bronze.jpg');
     background-size: 1em;
     background-repeat: no-repeat;
 }
