@@ -345,3 +345,10 @@ body.template-blank{background:#fff;background-image:none;padding:15px;}
     background-size: 1em;
     background-repeat: no-repeat;
 }
+.olympic-circles {
+    list-style-type: none;
+    padding-left: 2em;
+    background-image: url('img/olimpic-circ-logo.png');
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
